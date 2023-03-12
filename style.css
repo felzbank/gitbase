@@ -1,0 +1,22 @@
+input[type=text], input[type=email], input[type=password], input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+}
+    .data{
+    background-color: rgb(6, 83, 146);
+    color: azure;
+    width: 50%;
+    
+}
+button[type=button]{
+    width: 100%;
+    background-color: chartreuse;
+    color: beige;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 16px 32px;
+}
