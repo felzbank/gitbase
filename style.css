@@ -6,17 +6,37 @@ input[type=text], input[type=email], input[type=password], input[type=number]{
     border: none;
 }
     .data{
-    background-color: rgb(6, 83, 146);
+    background-color: rgb(1, 22, 40);
     color: azure;
     width: 50%;
     
+    margin: 16px;
+        
 }
+.row{
+width:50%;
+position: relative;
+left: 25%;
+
+}
+
 button[type=button]{
     width: 100%;
-    background-color: chartreuse;
+    background-color: rgb(8, 67, 67);
     color: beige;
     border: none;
     cursor: pointer;
     text-decoration: none;
     padding: 16px 32px;
+    margin-top: 16px;
+    
+    font-size: larger;
+
+}
+@media (max-width: 500px) {
+    input[type=text], input[type=email], input[type=password], input[type=number]{
+        width: 100%;
+        background-color: red;
+       
+    }
 }
